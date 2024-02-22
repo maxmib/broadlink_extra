@@ -2,7 +2,7 @@
 import logging
 
 import  sys
-sys.path.append('/comfig/custom_components/broadlink1/')
+sys.path.append('/config/custom_components/broadlink_extra/')
 
 from .broadlinkdiy.exceptions import BroadlinkException
 
