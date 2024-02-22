@@ -1,7 +1,7 @@
 """Constants."""
 from homeassistant.const import Platform
 
-DOMAIN = "broadlink1"
+DOMAIN = "broadlink_extra"
 
 DOMAINS_AND_TYPES = {
     Platform.REMOTE: {"RM4MINI", "RM4PRO", "RMMINI", "RMMINIB", "RMPRO"},
