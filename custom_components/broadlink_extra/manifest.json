@@ -1,6 +1,6 @@
 {
-  "domain": "broadlink extra",
-  "name": "Broadlink extra",
+  "domain": "broadlinkextra",
+  "name": "Broadlinkextra",
   "documentation": "https://www.home-assistant.io/integrations/broadlink",
   "codeowners": ["@danielhiversen", "@felipediel", "@L-I-Am","@maxmib"],
   "config_flow": true,
