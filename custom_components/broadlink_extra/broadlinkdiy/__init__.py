@@ -69,6 +69,7 @@ SUPPORTED_TYPES = {
         0xA589: ("SP4L-UK", "Broadlink"),
         0xA5D3: ("SP4L-EU", "Broadlink"),
         0xA4F9: ("WS4", "Broadlink (OEM)"),
+        0x7D15: ("SP mini 3-AL", "Broadlink (OEM)"),#和家亲版本插座
     },
     sp4b: {
         0x5115: ("SCB1E", "Broadlink"),
@@ -143,7 +144,7 @@ SUPPORTED_TYPES = {
         0x2714: ("e-Sensor", "Broadlink"),
     },
     a2: {
-        #0x4F60: ("e-Sensor", "Broadlink"),
+        0x4F60: ("e-Sensor", "Broadlink"),
     },
     mp1: {
         0x4EB5: ("MP1-1K4S", "Broadlink"),
