@@ -5,9 +5,7 @@
   "codeowners": ["@danielhiversen", "@felipediel", "@L-I-Am","@maxmib"],
   "config_flow": true,
   "dhcp": [
-    {
-      "registered_devices": true
-    },
+    { "registered_devices": true },
     {
       "macaddress": "34EA34*"
     },
@@ -19,24 +17,10 @@
     },
     {
       "macaddress": "B4430D*"
-    },
-    {
-      "macaddress": "C8F742*"
-    },
-    {
-      "macaddress": "E81656*"
-    },
-    {
-      "macaddress": "E87072*"
-    },
-    {
-      "macaddress": "EC0BAE*"
-    },
-    {
-      "macaddress": "780F77*"
     }
   ],
   "iot_class": "local_polling",
   "loggers": ["broadlink_extra"],
   "version": "1.0.0"
+
 }
