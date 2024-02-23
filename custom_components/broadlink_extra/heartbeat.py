@@ -19,7 +19,7 @@ class BroadlinkHeartbeat:
     feeds their watchdog timers so they can be used offline.
     """
 
-    HEARTBEAT_INTERVAL = dt.timedelta(minutes=2)
+    HEARTBEAT_INTERVAL = dt.timedelta(minutes=1)
 
     def __init__(self, hass):
         """Initialize the heartbeat."""
