@@ -184,7 +184,7 @@ class BroadlinkBG1UpdateManager(BroadlinkUpdateManager):
 
 class BroadlinkSP4UpdateManager(BroadlinkUpdateManager):
     """Manages updates for Broadlink SP4 devices."""
-    SCAN_INTERVAL = timedelta(seconds=5)  
+    SCAN_INTERVAL = timedelta(seconds=3)  
     async def async_fetch_data(self):
         """Fetch data from the device."""
         return await self.device.async_request(self.device.api.get_state)
